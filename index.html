@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sree Swathy Lites</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Noto Serif', serif;
+      background-color: white;
+      color: #4B0A2B;
+    }
+    .banner {
+      width: 100%;
+      height: auto;
+    }
+    .section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1, h2, h3 {
+      font-family: 'Oswald', sans-serif;
+      color: #4B0A2B;
+    }
+    .services-grid h3 {
+      font-family: 'Noto Serif', serif;
+    }
+    p {
+      font-size: 18px;
+    }
+    .highlight {
+      font-weight: bold;
+    }
+    .purple {
+      color: #4B0A2B !important;
+    }
+    .product-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .product-gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .product-gallery img:hover {
+      transform: scale(1.05);
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .service-box {
+      background-color: #fceee9;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .testimonial-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .testimonial-card {
+      background-color: #fff6f1;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+    }
+    .avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .stars {
+      color: #e0b077;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .team-grid {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .team-member {
+      text-align: center;
+    }
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+    }
+    .team-member h3 {
+      margin-bottom: 5px;
+    }
+    .team-member p {
+      font-style: italic;
+      font-size: 16px;
+    }
+    footer {
+      background-color: #4B0A2B;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 18px;
+    }
+    footer a {
+      color: #e0b077;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner -->
+  <img src="banner.png" alt="Banner" class="banner">
+
+  <!-- Welcome -->
+  <div class="section">
+    <h1>Welcome to <span class="highlight purple">Sree Swathy Lites</span></h1>
+    <p>A Perfect Lighting for Your Place</p>
+    <br>
+    <p>Since 2015, we have been illuminating lives with <span class="highlight purple">10+ years</span> of excellence in lighting. We offer a wide range of lights from commercial to fancy, tailored to your style and space.</p>
+  </div>
+
+  <!-- Products -->
+  <div class="section">
+    <h2>Our Products</h2>
+    <div class="product-gallery">
+      <img src="chandelier.jpg" alt="Chandelier">
+      <img src="walllight.jpg" alt="Wall Light">
+      <img src="hanginglight.jpg" alt="Hanging Light">
+      <img src="outdoorlight.jpg" alt="Outdoor Light">
+      <img src="gatelight.jpg" alt="Gate Light">
+      <img src="commerciallight.jpg" alt="Track Light">
+      <img src="woodenlight.jpg" alt="Ceiling Light">
+      <img src="spotlight.jpg" alt="Spotlight">
+    </div>
+  </div>
+
+  <!-- Our Services -->
+  <div class="section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-box">
+        <h3>Lighting Consultation & Design</h3>
+      </div>
+      <div class="service-box">
+        <h3>Commercial & Residential Projects</h3>
+      </div>
+      <div class="service-box">
+        <h3>Installation</h3>
+      </div>
+      <div class="service-box">
+        <h3>Repair of Lighting Fixtures</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="section">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <img src="userlogo.jpg" alt="Priya" class="avatar">
+        <p>"Amazing collection and superb service! Highly recommended for unique lighting options."</p>
+        <div class="stars">★★★★★</div>
+        <h4>– Priya K.</h4>
+      </div>
+      <div class="testimonial-card">
+        <img src="userlogo.jpg" alt="Arjun" class="avatar">
+        <p>"I got my entire home lighting done by Sree Swathy Lites. Professional and budget-friendly!"</p>
+        <div class="stars">★★★★☆</div>
+        <h4>– Arjun M.</h4>
+      </div>
+      <div class="testimonial-card">
+        <img src="userlogo.jpg" alt="Divya" class="avatar">
+        <p>"Loved the variety of chandeliers and fancy lights. Their advice helped me light my entire shop perfectly."</p>
+        <div class="stars">★★★★★</div>
+        <h4>– Divya R.</h4>
+      </div>
+      <div class="testimonial-card">
+        <img src="userlogo.jpg" alt="Rahul" class="avatar">
+        <p>"Affordable pricing and fast installation service. Will definitely come back for future projects!"</p>
+        <div class="stars">★★★★☆</div>
+        <h4>– Rahul T.</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Main Team -->
+  <div class="section">
+    <h2>Meet Our Main Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="appa.jpg" alt="D Ravikumar">
+        <h3>D Ravikumar</h3>
+        <p>Founder & Proprietor</p>
+      </div>
+      <div class="team-member">
+        <img src="sudiksha.jpg" alt="Sudiksha">
+        <h3>Sudiksha</h3>
+        <p>Head – Online Promotions</p>
+      </div>
+      <div class="team-member">
+        <img src="swathy.jpg" alt="Swathy">
+        <h3>Swathy</h3>
+        <p>Customer Relations Head</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Maps Location -->
+  <div class="section">
+    <h2>Visit Us</h2>
+    <p>We’re located right here! Find us easily on the map below:</p>
+    <div style="overflow:hidden; max-width:100%; margin-top: 30px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.5190876244155!2d80.1428681!3d12.9115301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f90bd1ccea9%3A0x3151ecd91458c72d!2sSree%20Swathy%20lights!5e1!3m2!1sen!2sin!4v1744773997151!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Contact us:</strong> <a href="mailto:sreeswathylites@gmail.com">sreeswathylites@gmail.com</a> | 9677277765</p>
+    <p><strong>Timings:</strong> Mon–Sat: 10 AM to 9 PM | Sun: 10 AM to 1 PM</p>
+    <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+  </footer>
+
+</body>
+</html>
